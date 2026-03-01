@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Personal Website - Home</title>
+    <link rel="stylesheet" href="cisc3003-SugEx03-home.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-wrap">
+        <div class="brand">
+          <div class="logo">ZZ</div>
+          <div class="brand-text">
+            <p class="name">Zihan Zhang</p>
+            <p class="role">Undergraduate Student | Aspiring Software Engineer</p>
+          </div>
+        </div>
+        <nav class="site-nav" aria-label="Primary">
+          <a class="active" href="cisc3003-sugEx03-home.html">Home</a>
+          <a href="cisc3003-sugex03-profile.html">Profile</a>
+          <a href="cisc3003-sugex03-summary.html">Summary</a>
+          <a href="cisc3003-sugex03-showcase.html">Showcase</a>
+          <a href="cisc3003-sugex03-qualification.html">Qualification</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <p class="eyebrow">Personal Website</p>
+            <h1>Hi, I am Zihan Zhang.</h1>
+            <p class="lead">
+              This is my second personal website for graduate school and future employers. It summarizes
+              my background, values, learning journey, and professional goals.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#about">Learn More</a>
+              <a class="btn ghost" href="#contact">Contact Me</a>
+            </div>
+            <div class="page-nav">
+              <a href="#about">About</a>
+              <a href="#highlights">Highlights</a>
+              <a href="#roadmap">Roadmap</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+          <div class="hero-photo">
+            <img src="images/photo-1.jpg" alt="Portrait of Zihan Zhang">
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About Me</h2>
+          <div class="grid two">
+            <div>
+              <p>
+                I am an undergraduate computer science student with interests in software engineering,
+                web development, and system design. I enjoy collaborating with others to solve real-world
+                problems and continuously improve my skills.
+              </p>
+              <p>
+                My academic focus includes programming fundamentals, data structures, and building
+                user-friendly web interfaces. I value clear communication, ethical responsibility,
+                and long-term growth.
+              </p>
+              <div class="stats">
+                <div class="stat">
+                  <strong>3+</strong>
+                  <span>Years of coding practice</span>
+                </div>
+                <div class="stat">
+                  <strong>5</strong>
+                  <span>Core courses completed</span>
+                </div>
+                <div class="stat">
+                  <strong>10+</strong>
+                  <span>Projects and labs</span>
+                </div>
+              </div>
+            </div>
+            <div class="card photo-card">
+              <img src="images/photo-2.jpg" alt="Zihan Zhang in a professional setting">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="highlights" class="section alt">
+        <div class="container">
+          <h2>Site Highlights</h2>
+          <div class="grid three">
+            <article class="card">
+              <p class="tag">Profile</p>
+              <h3>Values, career goals, and interests</h3>
+              <p>Discover what motivates me and the direction I want to grow.</p>
+              <a class="btn ghost" href="cisc3003-sugex03-profile.html">Go to Profile</a>
+            </article>
+            <article class="card">
+              <p class="tag">Summary</p>
+              <h3>Goals and learning outcomes</h3>
+              <p>Review my development plan and reflections for the future.</p>
+              <a class="btn ghost" href="cisc3003-sugex03-summary.html">Go to Summary</a>
+            </article>
+            <article class="card">
+              <p class="tag">Showcase</p>
+              <h3>Learning journal and achievements</h3>
+              <p>See selected work, milestones, and a brief statement of purpose.</p>
+              <a class="btn ghost" href="cisc3003-sugex03-showcase.html">Go to Showcase</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section">
+        <div class="container">
+          <h2>My Roadmap</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <h3>Short Term</h3>
+              <p>Strengthen software engineering fundamentals and build responsive web apps.</p>
+            </div>
+            <div class="timeline-item">
+              <h3>Mid Term</h3>
+              <p>Deliver team projects, improve system design skills, and deepen problem-solving.</p>
+            </div>
+            <div class="timeline-item">
+              <h3>Long Term</h3>
+              <p>Lead impactful products, mentor others, and contribute to ethical tech.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section alt">
+        <div class="container">
+          <h2>Contact</h2>
+          <div class="grid two">
+            <div>
+              <p>If you would like to connect, please reach out by email.</p>
+              <ul class="contact-list">
+                <li>Email: dc22985@umac.mo</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Quick Message</h3>
+              <form>
+                <label>
+                  Your Name
+                  <input type="text" name="name" placeholder="Your full name">
+                </label>
+                <label>
+                  Your Email
+                  <input type="email" name="email" placeholder="you@example.com">
+                </label>
+                <label>
+                  Message
+                  <textarea name="message" rows="4" placeholder="Write a short message..."></textarea>
+                </label>
+                <button class="btn primary" type="button">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>CISC3003 Web Programming - 2026: dc229853 Zihan Zhang</p>
+      </div>
+    </footer>
+  </body>
+</html>
