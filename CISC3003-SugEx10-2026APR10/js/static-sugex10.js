@@ -152,7 +152,7 @@
     customerDetailsCard.innerHTML = '';
 
     if (customer) {
-      var heading = document.createElement('h4');
+      var heading = document.createElement('h3');
       heading.textContent = customer.fullName;
       customerDetailsCard.appendChild(heading);
 
@@ -178,7 +178,7 @@
       return;
     }
 
-    var defaultHeading = document.createElement('h4');
+    var defaultHeading = document.createElement('h3');
     defaultHeading.textContent = selectedCustomerId ? 'Requested customer not found' : 'Customer Name here';
     customerDetailsCard.appendChild(defaultHeading);
 
@@ -237,7 +237,7 @@
     customerRow.firstChild.colSpan = 4;
     customerTableBody.appendChild(customerRow);
 
-    var detailsHeading = document.createElement('h4');
+    var detailsHeading = document.createElement('h3');
     detailsHeading.textContent = 'Unable to load data';
     customerDetailsCard.appendChild(detailsHeading);
 
